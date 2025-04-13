@@ -1,9 +1,3 @@
-
----
-
-### ✅ `requirements.txt`
-
-```txt
 discord.py==2.3.2
 requests==2.31.0
 google-api-python-client==2.115.0
