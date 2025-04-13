@@ -50,3 +50,31 @@ Alla prima esecuzione viene generato automaticamente un file `config.json` con i
   "TIKTOK_USERNAME": "tiktok_user",
   "CHECK_INTERVAL": 300
 }
+```
+## ▶️ Avvio
+### Installa i pacchetti richiesti:
+```txt
+pip install -r requirements.txt
+```
+
+### Avvia il bot:
+```txt
+python bot.py
+```
+### 📝 Il file config.json viene creato automaticamente al primo avvio. (dovrai stoppare il bot, modificare il config.json per poi riavviare il bot)
+### 📝 Il file published_video_links.txt viene creato automaticamente per evitare notifiche duplicate di video YouTube.
+
+## 📦 Dipendenze principali
+
+### discord.py – Interazione con l'API Discord
+
+### TikTokLive – Controllo live su TikTok
+
+### google-api-python-client – Accesso ai dati YouTube
+
+### requests – Richieste API per Twitch
+
+📄 Licenza
+Questo progetto è rilasciato sotto licenza MIT. Puoi modificarlo e distribuirlo liberamente.
+
+Made with ❤️ by Smokytek
