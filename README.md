@@ -65,14 +65,15 @@ python bot.py
 ### 📝 Il file published_video_links.txt viene creato automaticamente per evitare notifiche duplicate di video YouTube.
 
 ## 📦 Dipendenze principali
+```txt
+discord.py – Interazione con l'API Discord
 
-### discord.py – Interazione con l'API Discord
+TikTokLive – Controllo live su TikTok
 
-### TikTokLive – Controllo live su TikTok
+google-api-python-client – Accesso ai dati YouTube
 
-### google-api-python-client – Accesso ai dati YouTube
-
-### requests – Richieste API per Twitch
+requests – Richieste API per Twitch
+```
 
 📄 Licenza
 Questo progetto è rilasciato sotto licenza MIT. Puoi modificarlo e distribuirlo liberamente.
