@@ -245,10 +245,6 @@ async def on_connect(event: ConnectEvent):
 async def on_disconnect(event: DisconnectEvent):
     print("❌ Disconnesso")
 
-@tiktok_client1.on(FollowEvent)
-async def on_follow(event: FollowEvent):
-    print(f"🔝 {event.user.display_id} ha seguito il creator!")
-
     
 async def start_tiktok_monitor():
     bot.loop.create_task(check_loop())
