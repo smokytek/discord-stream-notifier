@@ -61,7 +61,6 @@ pip install -r requirements.txt
 ```txt
 python bot.py
 ```
-### 📝 Il file config.json viene creato automaticamente al primo avvio. (dovrai stoppare il bot, modificare il config.json per poi riavviare il bot)
 ### 📝 Il file published_video_links.txt viene creato automaticamente per evitare notifiche duplicate di video YouTube.
 
 ## 📦 Dipendenze principali
